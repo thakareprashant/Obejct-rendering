@@ -1,0 +1,39 @@
+
+html,body{
+    font-size: 10px;
+   
+}
+.product-container{
+   
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+   
+}
+.product-image:hover{
+    width: 17rem;
+    height: 17rem;
+    
+    
+}
+.product-detail{
+    margin: 20px;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product-image{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    transition:0.5s;
+}
+.product-name{
+    margin: 1rem;
+    font-size: large;
+    font-weight:bold;
+}
